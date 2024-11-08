@@ -16,7 +16,7 @@ if xp < 1000:
     nível = "Ferro"
 elif 1001 <= xp <= 2000:
     nível = "Bronze"
-elif 2001 <= xp <= 3000:
+elif 2001 <= xp <= 5000:
     nível = "Prata"
 elif 5001 <= xp <= 7000:
     nível = "Ouro"
@@ -30,4 +30,4 @@ else:
     nível = "Radiante"
 
 # Exibição do resultado
-print(f"Uau! {nome}, você está no nível {nível}!")
+print(f"O Herói de nome {nome} está no nível de {nivel}.")
