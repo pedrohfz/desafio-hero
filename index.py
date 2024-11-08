@@ -3,7 +3,7 @@ nome = input("Digite seu nome de Herói: ")
 xp = int(input("Digite a quantidade de experiência (XP): "))
 
 # Classificação do nível do Herói do Usuário com base na experiência (XP)
-if xp < 1000:
+if xp <= 1000:
     nivel = "Ferro"
 elif 1001 <= xp <= 2000:
     nivel = "Bronze"
